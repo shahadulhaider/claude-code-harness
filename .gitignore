@@ -1,0 +1,14 @@
+# Allowlist: ~/.claude is mostly private runtime state (credentials, history,
+# transcripts, caches). Ignore everything, then publish only the harness.
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/CLAUDE.md
+!/settings.json
+!/agents/
+!/commands/
+!/skills/
+!/scripts/
+!/.github/
+/skills/synced/
